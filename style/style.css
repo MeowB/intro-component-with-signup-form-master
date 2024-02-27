@@ -46,7 +46,7 @@ body main h2 {
 body main h2 span {
   font-weight: 300;
 }
-body main form {
+body main .form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,7 +55,7 @@ body main form {
   box-shadow: 0 6px 0px rgba(0, 0, 0, 0.2);
   padding-top: 10px;
 }
-body main form input {
+body main .form input {
   margin-top: 20px;
   box-sizing: border-box;
   width: 80%;
@@ -64,36 +64,36 @@ body main form input {
   padding: 20px 20px;
   font-weight: bold;
 }
-body main form .error {
+body main .form .error {
   color: #ff7a7a;
   text-align: end;
   width: 80%;
   position: relative;
 }
-body main form .error img {
+body main .form .error img {
   position: absolute;
   top: -42px;
   right: 25px;
 }
-body main form .submit-button {
+body main .form .submit-button {
   background-color: #38cc8c;
   color: white;
   text-transform: uppercase;
   font-weight: 500;
   cursor: pointer;
 }
-body main form .submit-button:hover {
+body main .form .submit-button:hover {
   background-color: rgba(56, 204, 140, 0.6);
   box-shadow: 0 3px 0px #38cc8c;
 }
-body main form p {
+body main .form p {
   padding-top: 15px;
   padding-bottom: 20px;
   color: #b9b6d3;
   font-size: 0.75em;
   width: 75%;
 }
-body main form p a {
+body main .form p a {
   color: #ff7a7a;
   font-weight: bold;
   text-decoration: none;
